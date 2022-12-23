@@ -15,7 +15,7 @@ html, body, * {
 table.GeneratedTable {
   width: 100%;
   border-collapse: collapse;
-  border-width: 1px;
+  //border-width: 1px;
   border-color: #000000;
   border-style: solid;
   color: #000000;
@@ -28,3 +28,88 @@ table.GeneratedTable td, table.GeneratedTable th {
   padding: 3px;
 }
 
+tfoot * {
+  border: unset !important;
+  font-weight: bold;
+}
+
+
+
+//.invoice-total {
+//    width: 20%;
+//   float: right;
+//  &-item {
+//    display: table-row;
+//    &-title {
+//    }
+//
+//    &-descr {
+//      font-weight: bold;
+//      //display: inline;
+//      //float: right;
+//    }
+//  }
+//}
+
+
+.invoice-total {
+  &-item {
+    display: table-row;
+
+    &-descr {
+      font-weight: bold;
+    }
+  }
+}
+
+
+.table-data {
+  display: table;
+  float: right;
+  margin-top: 10px;
+
+  .row {
+    display: table-row;
+  }
+
+  .cell {
+    display: table-cell;
+  }
+
+  .row,
+  .cell {
+    padding: 10px;
+  }
+}
+
+.table-header {
+  display: table;
+  margin-top: 10px;
+  padding-bottom: 20px;
+
+  .row {
+    display: table-row;
+  }
+
+  .cell {
+    display: table-cell;
+  }
+
+  .row,
+  .cell {
+    padding: 5px 10px;
+    width: 70%;
+
+    &:first-child {
+      width: 30%;
+    }
+  }
+}
+
+.logo {
+  width: 30%;
+}
+
+.header * {
+  border: unset !important;
+}

@@ -13,7 +13,6 @@ html, body, * {
 table.GeneratedTable {
   width: 100%;
   border-collapse: collapse;
-  border-width: 1px;
   border-color: #000000;
   border-style: solid;
   color: #000000;
@@ -24,6 +23,63 @@ table.GeneratedTable td, table.GeneratedTable th {
   border-color: #000000;
   border-style: solid;
   padding: 3px;
+}
+
+tfoot * {
+  border: unset !important;
+  font-weight: bold;
+}
+
+.invoice-total-item {
+  display: table-row;
+}
+.invoice-total-item-descr {
+  font-weight: bold;
+}
+
+.table-data {
+  display: table;
+  float: right;
+  margin-top: 10px;
+}
+.table-data .row {
+  display: table-row;
+}
+.table-data .cell {
+  display: table-cell;
+}
+.table-data .row,
+.table-data .cell {
+  padding: 10px;
+}
+
+.table-header {
+  display: table;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+.table-header .row {
+  display: table-row;
+}
+.table-header .cell {
+  display: table-cell;
+}
+.table-header .row,
+.table-header .cell {
+  padding: 5px 10px;
+  width: 70%;
+}
+.table-header .row:first-child,
+.table-header .cell:first-child {
+  width: 30%;
+}
+
+.logo {
+  width: 30%;
+}
+
+.header * {
+  border: unset !important;
 }
 
 /*# sourceMappingURL=invoice.css.map */
