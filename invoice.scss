@@ -110,6 +110,17 @@ tfoot * {
   width: 30%;
 }
 
-.header * {
+.header *, .small-table *{
   border: unset !important;
+}
+
+
+.small-table {
+  tbody * {
+    font-size: 11px;
+  }
+}
+
+.date {
+  float: right;
 }
