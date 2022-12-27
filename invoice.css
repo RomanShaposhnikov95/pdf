@@ -90,4 +90,13 @@ tfoot * {
   float: right;
 }
 
+.table thead tr td {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+.table tbody tr td {
+  width: 50%;
+}
+
 /*# sourceMappingURL=invoice.css.map */

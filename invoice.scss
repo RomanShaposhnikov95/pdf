@@ -124,3 +124,24 @@ tfoot * {
 .date {
   float: right;
 }
+
+
+.table {
+  thead {
+    tr {
+      td {
+        background-color: black;
+        color: white;
+        font-weight: bold;
+      }
+    }
+  }
+  tbody {
+    tr {
+      td {
+        width: 50%;
+      }
+    }
+  }
+}
+
